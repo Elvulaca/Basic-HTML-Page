@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,50 +10,62 @@
     <title>Forms</title>
 
 </head>
+
 <body>
     <header>
         <nav>
             <a class="nav" href="index.html">Bio</a>
-            <a class="nav1" href="contact.html">Contact Me</a>
 
 
         </nav>
     </header>
     <main>
 
-        <form id="Formation" action="#" method="">
-            <h2>Join my Email List</h2>
-            <label for="name">Enter your Name</label>
+        <form id="Formation" action="https://elvulaca.github.io/Basic-HTML-Page/forms.html" method="GET">
+            <h2>Your Basic Info</h2>
+            <label for="name">Name</label>
+
+            <input type="text" id="name" required>
             <br>
-            <input type="text" id="name" placeholder="Name" required>
-<br>
-<br>
-<label for="Email">Enter your Email</label>
-<br>
-            <input type="email" id="email" placeholder="Email" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" required>
             <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
             <br>
-            <label for="password">Please create a password</label>
-            <br>
-            <input type="password" id="password" placeholder="Password must have 6 letters, 1 number and 1 special character" required>
-            <br>
-            <br>
-            <label for="tel">Enter your Phone Number:</label>
-            <br>
-            <input type="tel" id="telephone" placeholder="Telephone">
-            
-            <h4>Best Time to Contact</h4>
-            <input type="radio" id="morning" name="contact time" value="morning">
-            <label= for="morning">Morning</label>
-            <br>
-            <input type="radio" id="afternoon" name="contact time" value="afternoon">
-            <label= for="afternoon">Afternoon</label>
-            <br>
-            <input type="radio" id="evening" name="contact time" value="evening">
-            <label= for="evening">Evening</label>
-            <br><Br>
-                <input type="submit" id="submit" value="SUBMIT">
-                
+
+            <label for="age">Age</label>
+            <input type="radio" id="Age" name="Age" value="age">
+            <label= for="Age">Under 16</label>
+                <br>
+                <input type="radio" id="Age" name="Age" value="Age">
+                <label= for="Age">16 or Older</label>
+                    <br><Br><br>
+                    <h2>Your profile</h2>
+                    <br>
+                    <label for="Bio">Biography</label>
+                    <input type="text" id="bio">
+
+                    <label for="School">Select courses</label>
+                    <select name="courses" id="courses">
+                        <option value="courses">Computer Science Engineering</option>
+                    </select>
+                    <br><br>
+                    <label for="Interests">Interests</label>
+            <input type="radio" id="Interests" name="Interests">
+            <label= for="Interests">Engineering</label>
+                <br>
+                <input type="radio" id="Interests" name="Interests">
+                <label= for="Interests">Business</label>
+                    <br>
+                    <input type="radio" id="Interests" name="Interests">
+                <label= for="Interests">Law</label>
+                    <Br><br>
+
+                    <input type="submit" id="submit" value="SUBMIT">
+
 
 
 
@@ -61,6 +74,7 @@
 
 
     </main>
-    
+
 </body>
+
 </html>
