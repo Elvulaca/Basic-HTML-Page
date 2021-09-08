@@ -105,3 +105,7 @@ background-color: rgb(204, 128, 29);
     font-weight: 300;
     display: inline;
   }
+  
+  table, th, td {
+    border:3px double black;
+  }
